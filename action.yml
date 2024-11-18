@@ -1,7 +1,8 @@
   on:
     pull_request:
       types: [edited, synchronize, opened, reopened]
-
+    merge_group:
+      types: [checks_requested]
 
 jobs:
     test:
